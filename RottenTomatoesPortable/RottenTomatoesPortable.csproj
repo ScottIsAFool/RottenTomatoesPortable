@@ -37,14 +37,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Attributes\Description.cs" />
-    <Compile Include="Entities\AbridgedCast.cs" />
+    <Compile Include="Entities\Cast.cs" />
     <Compile Include="Entities\AbridgedDirector.cs" />
     <Compile Include="Entities\AlternateIds.cs" />
+    <Compile Include="Entities\CastResponse.cs" />
     <Compile Include="Entities\Clip.cs" />
     <Compile Include="Entities\ClipsResponse.cs" />
     <Compile Include="Entities\Freshness.cs" />
     <Compile Include="Entities\Links.cs" />
     <Compile Include="Entities\Movie.cs" />
+    <Compile Include="Entities\MovieResponse.cs" />
     <Compile Include="Entities\Posters.cs" />
     <Compile Include="Entities\Ratings.cs" />
     <Compile Include="Entities\ReleaseDates.cs" />
