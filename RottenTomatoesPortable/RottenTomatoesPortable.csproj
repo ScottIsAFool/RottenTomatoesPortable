@@ -56,6 +56,7 @@
     <Compile Include="Entities\SearchResponse.cs" />
     <Compile Include="Entities\Url.cs" />
     <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="IRottenTomatoClient.cs" />
     <Compile Include="RottenTomatoClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
