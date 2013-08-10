@@ -10,9 +10,9 @@ using RottenTomatoesPortable.Entities;
 namespace RottenTomatoesPortable
 {
     /// <summary>
-    /// 
+    /// Client for accessing the Rotten Tomato API
     /// </summary>
-    public class RottenTomatoClient
+    public class RottenTomatoClient : IRottenTomatoClient
     {
         #region Private Fields
         private const string BaseUrl = "http://api.rottentomatoes.com/api/public/v1.0/";
